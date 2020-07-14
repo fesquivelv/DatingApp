@@ -20,7 +20,7 @@ export class NavComponent implements OnInit {
     this.authService.login(this.model).subscribe(newxt => {
       console.log('Logging');
     }, error => {
-      console.log('Failed login');
+      console.log(error);
     });
   }
 
