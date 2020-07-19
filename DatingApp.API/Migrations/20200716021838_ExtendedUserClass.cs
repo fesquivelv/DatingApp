@@ -21,7 +21,7 @@ namespace DatingApp.API.Migrations
                     KnownAs = table.Column<string>(nullable: true),
                     Created = table.Column<DateTime>(nullable: false),
                     LastActive = table.Column<DateTime>(nullable: false),
-                    Introduccion = table.Column<string>(nullable: true),
+                    Introduction = table.Column<string>(nullable: true),
                     LookingFor = table.Column<string>(nullable: true),
                     Interests = table.Column<string>(nullable: true),
                     City = table.Column<string>(nullable: true),
